@@ -256,6 +256,7 @@ class Tabs extends Component {
 
       .categories ul::after {
           content: attr(class);
+          display: none;
           position: absolute;
           display: flex;
           text-transform: uppercase;
